@@ -12,7 +12,16 @@ let Login = () => {
   };
   return (
     <React.Fragment>
-      <section>
+      <section className="bg-warning">
+        <div className="container">
+          <div className="row">
+            <div className="col">
+              <h3> Login Form</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="m-auto">
         <div className="container mt-4">
           <div className="row">
             <div className="col-md-5">

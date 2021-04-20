@@ -5,12 +5,20 @@ let Signup = () => {
     setUser({ ...user, [event.target.name]: event.target.value });
   };
   let submitHandler = (event) => {
-    console.log(user)
+    console.log(user);
     event.preventDefault();
   };
   return (
     <React.Fragment>
-      <section></section>
+      <section className="bg-warning p-3">
+        <div className="container">
+          <div className="row">
+            <div className="col">
+              <h3> Registraion</h3>
+            </div>
+          </div>
+        </div>
+      </section>
       <section>
         <div className="container mt-5">
           <div className="row">
